@@ -4,7 +4,7 @@ import React from "react";
 
 const BottomNav = () => {
   return (
-    <div className="p-6 rounded-t-3xl fixed bottom-0 w-full bg-blue-500 flex justify-between items-center text-white lg:hidden">
+    <div className="py-4 px-10 rounded-t-3xl fixed bottom-0 w-full bg-blue-500 flex justify-between items-center text-white lg:hidden">
       <Link href={"/"} className="flex flex-col items-center">
         <span>
           <svg
@@ -25,7 +25,7 @@ const BottomNav = () => {
             <rect width="7" height="7" x="3" y="14" rx="1" />
           </svg>
         </span>
-        <span>Home</span>
+        <span className="text-sm">Home</span>
       </Link>
       <Link href={"/contact"} className="flex flex-col items-center">
         <span>
@@ -45,7 +45,7 @@ const BottomNav = () => {
             <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
           </svg>
         </span>
-        <span>Contact</span>
+        <span className="text-sm">Contact</span>
       </Link>
       <Link href={"/profile"} className="flex flex-col items-center">
         <span>
@@ -66,7 +66,7 @@ const BottomNav = () => {
             <circle cx="12" cy="12" r="10" />
           </svg>
         </span>
-        <span>Profile</span>
+        <span className="text-sm">Profile</span>
       </Link>
     </div>
   );
