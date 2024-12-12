@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Next.js PWA",
     short_name: "NextPWA",
     description: "A Progressive Web App built with Next.js",
-    start_url: "http://localhost:3000/",
+    start_url: "https://nextjs-pwa-ten.vercel.app/",
     display: "standalone",
     icons: [
       {
